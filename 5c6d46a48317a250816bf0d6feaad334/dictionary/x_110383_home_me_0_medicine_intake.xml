@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b985d6a08357a250816bf0d6feaad3a4" label="Medicine Intake" max_length="40" name="x_110383_home_me_0_medicine_intake" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Consumer" mandatory="true" max_length="32" name="consumer" reference="sys_user" type="reference"/>
+        <element label="Intake Time" max_length="40" name="intake_time" type="glide_date_time"/>
+        <element label="Medicine" mandatory="true" max_length="32" name="medicine" reference="x_110383_home_me_0_medicine_inventory" type="reference"/>
+        <index name="index">
+            <element name="consumer"/>
+        </index>
+        <index name="index2">
+            <element name="medicine"/>
+        </index>
+    </element>
+</database>
