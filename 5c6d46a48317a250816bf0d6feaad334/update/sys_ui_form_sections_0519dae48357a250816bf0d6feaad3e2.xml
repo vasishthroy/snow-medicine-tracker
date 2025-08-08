@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0519dae48357a250816bf0d6feaad3e2" sys_domain="global" table="x_110383_home_me_0_medicines" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8119dae48357a250816bf0d6feaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_110383_home_me_0_medicines" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">0519dae48357a250816bf0d6feaad3e2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">8bf11a2c8317a250816bf0d6feaad3ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d19dae48357a250816bf0d6feaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_110383_home_me_0_medicines" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">0519dae48357a250816bf0d6feaad3e2</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_110383_home_me_0_medicines</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0519dae48357a250816bf0d6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_110383_home_me_0_medicines</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0519dae48357a250816bf0d6feaad3e2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
