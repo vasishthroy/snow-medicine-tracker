@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0ed3d6ec8317a250816bf0d6feaad395" label="Medicine Inventory" max_length="40" name="x_110383_home_me_0_medicine_inventory" type="collection">
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Expiry Date" mandatory="true" max_length="40" name="expiry_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element display="true" label="Medicine" mandatory="true" max_length="32" name="medicine" reference="x_110383_home_me_0_medicines" type="reference"/>
+        <index name="index">
+            <element name="medicine"/>
+        </index>
+    </element>
+</database>

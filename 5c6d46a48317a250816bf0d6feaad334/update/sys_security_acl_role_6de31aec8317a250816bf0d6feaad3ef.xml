@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 10:17:11</sys_created_on>
+        <sys_id>6de31aec8317a250816bf0d6feaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_110383_home_me_0_medicine_inventory.x_110383_home_me_0.medicine_inventory_user</sys_name>
+        <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+        <sys_security_acl display_value="x_110383_home_me_0_medicine_inventory">65e31aec8317a250816bf0d6feaad3ec</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6de31aec8317a250816bf0d6feaad3ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 10:17:11</sys_updated_on>
+        <sys_user_role display_value="x_110383_home_me_0.medicine_inventory_user" name="x_110383_home_me_0.medicine_inventory_user">9de31aec8317a250816bf0d6feaad3d8</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

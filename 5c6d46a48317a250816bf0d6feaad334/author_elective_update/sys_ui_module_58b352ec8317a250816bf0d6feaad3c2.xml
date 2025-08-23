@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Home Medicine Tracker">8fc1d22c8317a250816bf0d6feaad3bf</application>
+        <filter/>
+        <name>Inventory Medicines</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_110383_home_me_0.inventory_medicine_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 10:16:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>58b352ec8317a250816bf0d6feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Medicines</sys_name>
+        <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+        <sys_update_name>sys_ui_module_58b352ec8317a250816bf0d6feaad3c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 10:16:17</sys_updated_on>
+        <table>x_110383_home_me_0_inventory_medicine</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</application>
+        <file_path/>
+        <instance_id>8b59d746ffce9a18c812f8e4fc4fd9ad</instance_id>
+        <instance_name>dev291541</instance_name>
+        <name>sys_ui_module_58b352ec8317a250816bf0d6feaad3c2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Home Medicine Tracker">8fc1d22c8317a250816bf0d6feaad3bf</application><filter/><name>Inventory Medicines</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_110383_home_me_0.inventory_medicine_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-08-08 10:16:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>58b352ec8317a250816bf0d6feaad3c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Inventory Medicines</sys_name><sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package><sys_policy/><sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope><sys_update_name>sys_ui_module_58b352ec8317a250816bf0d6feaad3c2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-08-08 10:16:17</sys_updated_on><table>x_110383_home_me_0_inventory_medicine</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>2063639527</payload_hash>
+        <record_name>Inventory Medicines</record_name>
+        <reverted_from/>
+        <source>2c7f82288317a250816bf0d6feaad3a7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 10:16:17</sys_created_on>
+        <sys_id>1cb352ec8317a250816bf0d6feaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198892e6c2a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 10:16:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>10b352ecf117a2503606fd35d550a9c4</update_guid>
+        <update_guid_history>10b352ecf117a2503606fd35d550a9c4:2063639527</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-08 10:16:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>ce2fcc81291c4010bf6f03a656661e40</sys_id>
+        <sys_metadata>58b352ec8317a250816bf0d6feaad3c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Medicines</sys_name>
+        <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+        <sys_scope_delete display_value="">1faada9263044c3a85fc1dfb07f42fa4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_58b352ec8317a250816bf0d6feaad3c2</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_58b352ec8317a250816bf0d6feaad3c2">1cb352ec8317a250816bf0d6feaad3c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-08 10:16:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

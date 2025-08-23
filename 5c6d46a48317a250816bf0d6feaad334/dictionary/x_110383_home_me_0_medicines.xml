@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1850de688317a250816bf0d6feaad3c1" label="Medicines" max_length="40" name="x_110383_home_me_0_medicines" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="10000" name="name" type="string"/>
+        <element label="Manufacturer" mandatory="true" max_length="32" name="manufacturer" reference="core_company" type="reference"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="manufacturer"/>
+        </index>
+    </element>
+</database>
