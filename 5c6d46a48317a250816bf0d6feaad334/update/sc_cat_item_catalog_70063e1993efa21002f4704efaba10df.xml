@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Add New Medicines">ebb3fe5593efa21002f4704efaba1073</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 06:57:22</sys_created_on>
+        <sys_id>70063e1993efa21002f4704efaba10df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Add New Medicines</sys_name>
+        <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_70063e1993efa21002f4704efaba10df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 06:57:22</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
