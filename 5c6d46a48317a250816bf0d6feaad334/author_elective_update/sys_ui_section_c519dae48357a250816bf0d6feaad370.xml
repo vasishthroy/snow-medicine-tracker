@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="c519dae48357a250816bf0d6feaad370" sys_domain="global" table="x_110383_home_me_0_medicines" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:50</sys_created_on>
+            <sys_id>4119dae48357a250816bf0d6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:50</sys_created_on>
+            <sys_id>c519dae48357a250816bf0d6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:50</sys_created_on>
+            <sys_id>4d19dae48357a250816bf0d6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_110383_home_me_0_medicines</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c519dae48357a250816bf0d6feaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_110383_home_me_0_medicines</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+            <sys_update_name>sys_ui_section_c519dae48357a250816bf0d6feaad370</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</application>
+        <file_path/>
+        <instance_id>4c63143993192e5cc4e8ddd548373cd8</instance_id>
+        <instance_name>dev343277</instance_name>
+        <name>sys_ui_section_c519dae48357a250816bf0d6feaad370</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New section 1" section_id="c519dae48357a250816bf0d6feaad370" sys_domain="global" table="x_110383_home_me_0_medicines" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:50</sys_created_on>
+            <sys_id>4119dae48357a250816bf0d6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:50</sys_created_on>
+            <sys_id>c519dae48357a250816bf0d6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:50</sys_created_on>
+            <sys_id>4d19dae48357a250816bf0d6feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_110383_home_me_0_medicines" sys_domain="global" view="Default view">c519dae48357a250816bf0d6feaad370</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_110383_home_me_0_medicines</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-08-08 10:39:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c519dae48357a250816bf0d6feaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_110383_home_me_0_medicines</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+            <sys_update_name>sys_ui_section_c519dae48357a250816bf0d6feaad370</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-08-08 10:39:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>563275726</payload_hash>
+        <record_name>Medicines</record_name>
+        <reverted_from/>
+        <source>512cda7493a7221002f4704efaba10f4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-21 15:47:31</sys_created_on>
+        <sys_id>d32cde7493a7221002f4704efaba1012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>198cd5059a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-21 15:47:31</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>932cde7420a722108a760cf57357cd12</update_guid>
+        <update_guid_history>932cde7420a722108a760cf57357cd12:563275726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 06:45:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1af4fa3f886840ee8548bc67f7d92444</sys_id>
+        <sys_metadata>c519dae48357a250816bf0d6feaad370</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_110383_home_me_0_medicines</sys_name>
+        <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+        <sys_parent display_value="Medicines">1850de688317a250816bf0d6feaad3c1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+        <sys_scope_delete display_value="">1faada9263044c3a85fc1dfb07f42fa4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c519dae48357a250816bf0d6feaad370</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c519dae48357a250816bf0d6feaad370">d32cde7493a7221002f4704efaba1012</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 06:45:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

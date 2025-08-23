@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["bacc83199363e21002f4704efaba105a"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description>Add new medicine to the medicines table after approval</description>
+        <expected_sequences>f2cc83199363e21002f4704efaba105b,becc83199363e21002f4704efaba105c,3acc83199363e21002f4704efaba1059,fecc83199363e21002f4704efaba105b,bacc83199363e21002f4704efaba105a</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>f2cc83199363e21002f4704efaba105b,becc83199363e21002f4704efaba105c,3acc83199363e21002f4704efaba1059,fecc83199363e21002f4704efaba105b,bacc83199363e21002f4704efaba105a</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Add Medicine Request</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">f2cc83199363e21002f4704efaba105b</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>3ecc03d59363e21002f4704efaba1082</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:49:32</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Add Medicine Request">79eaf2119323e21002f4704efaba107a</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Add new medicine to the medicines table after approval</description>
+        <name>Add Medicine Request</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 07:18:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79eaf2119323e21002f4704efaba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Medicine Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
+        <sys_update_name>wf_workflow_79eaf2119323e21002f4704efaba107a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 07:18:44</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>7ecc83199363e21002f4704efaba1058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>becc03d59363e21002f4704efaba1083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>32cc03d59363e21002f4704efaba1084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>72cc83199363e21002f4704efaba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>fecc83199363e21002f4704efaba1058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>b2cc03d59363e21002f4704efaba1084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>f2cc83199363e21002f4704efaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f2cc83199363e21002f4704efaba105b"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">f2cc83199363e21002f4704efaba105b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>3acc83199363e21002f4704efaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Close RITM</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>fecc83199363e21002f4704efaba105b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+        <x>550</x>
+        <y>91</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=fecc83199363e21002f4704efaba105b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fecc83199363e21002f4704efaba105b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>72cc83199363e21002f4704efaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fecc83199363e21002f4704efaba105b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>72cc83199363e21002f4704efaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Close RITM">fecc83199363e21002f4704efaba105b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>f6cc83199363e21002f4704efaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create medicine record in the database</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>3acc83199363e21002f4704efaba1059</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:48:30</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+        <x>342</x>
+        <y>52</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=3acc83199363e21002f4704efaba1059"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3acc83199363e21002f4704efaba1059</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>3ecc83199363e21002f4704efaba1059</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:48:30</sys_updated_on>
+        <value>const MED_TABLE =  "x_110383_home_me_0_medicines";&#13;
+const COMPANY_TABLE = "core_company";&#13;
+&#13;
+try {&#13;
+&#13;
+	let grMedicine = new GlideRecord(MED_TABLE);&#13;
+	grMedicine.initialize();&#13;
+	grMedicine.setValue("name", current.variables.medicine_name);&#13;
+	grMedicine.setValue("type", current.variables.type_of_medicine);&#13;
+&#13;
+	if (current.variables.company_unavailable) {&#13;
+		let grManufacturer = new GlideRecord(COMPANY_TABLE);&#13;
+		grManufacturer.initialize();&#13;
+		grManufacturer.setValue("name", current.variables.manufacturer_name);&#13;
+		grManufacturer.setValue("notes", "Medicine");&#13;
+		grManufacturer.insert();&#13;
+		&#13;
+		grMedicine.setValue("manufacturer", grManufacturer.sys_id);&#13;
+&#13;
+	} else {&#13;
+		grMedicine.setValue("manufacturer", current.variables.manufacturer);&#13;
+	}&#13;
+&#13;
+	grMedicine.insert();&#13;
+} catch (err) {&#13;
+	current.work_notes = `${err.message}\n ${err.stack}`;&#13;
+}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>3acc83199363e21002f4704efaba1059</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>3ecc83199363e21002f4704efaba1059</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:48:30</sys_updated_on>
+        <value>const MED_TABLE =  "x_110383_home_me_0_medicines";&#13;
+const COMPANY_TABLE = "core_company";&#13;
+&#13;
+try {&#13;
+&#13;
+	let grMedicine = new GlideRecord(MED_TABLE);&#13;
+	grMedicine.initialize();&#13;
+	grMedicine.setValue("name", current.variables.medicine_name);&#13;
+	grMedicine.setValue("type", current.variables.type_of_medicine);&#13;
+&#13;
+	if (current.variables.company_unavailable) {&#13;
+		let grManufacturer = new GlideRecord(COMPANY_TABLE);&#13;
+		grManufacturer.initialize();&#13;
+		grManufacturer.setValue("name", current.variables.manufacturer_name);&#13;
+		grManufacturer.setValue("notes", "Medicine");&#13;
+		grManufacturer.insert();&#13;
+		&#13;
+		grMedicine.setValue("manufacturer", grManufacturer.sys_id);&#13;
+&#13;
+	} else {&#13;
+		grMedicine.setValue("manufacturer", current.variables.manufacturer);&#13;
+	}&#13;
+&#13;
+	grMedicine.insert();&#13;
+} catch (err) {&#13;
+	current.work_notes = `${err.message}\n ${err.stack}`;&#13;
+}</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create medicine record in the database">3acc83199363e21002f4704efaba1059</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>b2cc83199363e21002f4704efaba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>bacc83199363e21002f4704efaba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+        <x>742</x>
+        <y>100</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=bacc83199363e21002f4704efaba105a"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State to Pending</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>becc83199363e21002f4704efaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+        <x>139</x>
+        <y>55</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=becc83199363e21002f4704efaba105c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>becc83199363e21002f4704efaba105c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>32cc83199363e21002f4704efaba105d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>becc83199363e21002f4704efaba105c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>32cc83199363e21002f4704efaba105d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <value>state=2^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set State to Pending">becc83199363e21002f4704efaba105c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>b6cc83199363e21002f4704efaba105d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b6cc83199363e21002f4704efaba105d</condition>
+        <from display_value="Set State to Pending">becc83199363e21002f4704efaba105c</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:55</sys_created_on>
+        <sys_id>36cc83199363e21002f4704efaba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:55</sys_updated_on>
+        <to display_value="Create medicine record in the database">3acc83199363e21002f4704efaba1059</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">f6cc83199363e21002f4704efaba105c</condition>
+        <from display_value="Close RITM">fecc83199363e21002f4704efaba105b</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:55</sys_created_on>
+        <sys_id>72cc83199363e21002f4704efaba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:55</sys_updated_on>
+        <to display_value="End">bacc83199363e21002f4704efaba105a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">b2cc83199363e21002f4704efaba105a</condition>
+        <from display_value="Create medicine record in the database">3acc83199363e21002f4704efaba1059</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:55</sys_created_on>
+        <sys_id>7ecc83199363e21002f4704efaba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:55</sys_updated_on>
+        <to display_value="Close RITM">fecc83199363e21002f4704efaba105b</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">3acc83199363e21002f4704efaba105b</condition>
+        <from display_value="Begin">f2cc83199363e21002f4704efaba105b</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:55</sys_created_on>
+        <sys_id>bacc83199363e21002f4704efaba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:55</sys_updated_on>
+        <to display_value="Set State to Pending">becc83199363e21002f4704efaba105c</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-08-23 08:36:54</sys_created_on>
+        <sys_id>becc03d59363e21002f4704efaba1082</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-08-23 08:36:54</sys_updated_on>
+        <workflow_version display_value="Add Medicine Request">3ecc03d59363e21002f4704efaba1082</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=79eaf2119323e21002f4704efaba107a^sys_id!=3ecc03d59363e21002f4704efaba1082">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>
