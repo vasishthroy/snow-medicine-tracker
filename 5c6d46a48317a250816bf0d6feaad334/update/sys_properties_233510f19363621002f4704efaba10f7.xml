@@ -11,16 +11,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-08-24 08:35:59</sys_created_on>
         <sys_id>233510f19363621002f4704efaba10f7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>x_110383_home_me_0.snow_fall.ngrok_url</sys_name>
         <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
         <sys_policy/>
         <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
         <sys_update_name>sys_properties_233510f19363621002f4704efaba10f7</sys_update_name>
         <sys_updated_by>MR.Saas</sys_updated_by>
-        <sys_updated_on>2025-08-24 18:56:02</sys_updated_on>
+        <sys_updated_on>2025-08-24 19:27:29</sys_updated_on>
         <type>string</type>
-        <value>Test</value>
+        <value>https://f87583cc3afc.ngrok-free.app</value>
         <write_roles>x_110383_home_me_0.admin</write_roles>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=233510f19363621002f4704efaba10f7"/>

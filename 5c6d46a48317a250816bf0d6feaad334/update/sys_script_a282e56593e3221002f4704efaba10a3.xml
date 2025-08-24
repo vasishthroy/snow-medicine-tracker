@@ -29,8 +29,10 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-    const ENDPOINT = "https://306e3bb723c6.ngrok-free.app";
+    const PROPERTY_NAME = "x_110383_home_me_0.snow_fall.ngrok_url";
+	const ENDPOINT = "/ace/api/appData";
 	const PARM = "MEDICINE LOAD";
+    const URL = gs.getProperty(PROPERTY_NAME);
 
 try {
 
@@ -41,7 +43,7 @@ try {
 
     var request = new sn_ws.RESTMessageV2();
     request.setHttpMethod("POST");
-    request.setEndpoint(ENDPOINT + "/ace/api/appData");
+    request.setEndpoint(URL + ENDPOINT);
 
     request.setRequestHeader("Accept", "application/json");
     request.setRequestHeader("Content-Type", "application/json");
@@ -70,7 +72,7 @@ try {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a282e56593e3221002f4704efaba10a3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Save to Local Database</sys_name>
         <sys_overrides/>
         <sys_package display_value="Home Medicine Tracker" source="x_110383_home_me_0">5c6d46a48317a250816bf0d6feaad334</sys_package>
@@ -78,7 +80,7 @@ try {
         <sys_scope display_value="Home Medicine Tracker">5c6d46a48317a250816bf0d6feaad334</sys_scope>
         <sys_update_name>sys_script_a282e56593e3221002f4704efaba10a3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-08-24 08:30:32</sys_updated_on>
+        <sys_updated_on>2025-08-24 19:31:38</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
